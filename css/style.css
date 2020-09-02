@@ -1,0 +1,392 @@
+html,body
+{
+	background-color: #fff;
+	font-family: 'Architects Daughter', cursive;
+	overflow-x: hidden !important;
+	margin: 0px !important;
+	padding: 0px  !important;
+	background: #fff;
+
+
+
+
+}
+
+*{
+	text-decoration: none !important;
+}
+
+.nav
+{
+	
+	position: fixed;
+	background-color: white;
+	z-index: 1000;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0  25px 0 25px;
+	box-shadow: 0 19px 38px rgba(162, 155, 254,0.2);
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+
+.nav .links a
+{
+	margin-right: 25px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #000;
+}
+
+.nav .links .mainlinks
+{
+	color: rgba(162, 155, 254,1.0);
+}
+
+.nav h4
+{
+	font-size: 35px;
+	font-weight: bold;
+	margin-left: 25px;
+}
+
+.landing
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 10vw 0 10vw;
+	height: 100vh;
+}
+
+.landingText h1
+{
+	font-size: 5vw;
+	margin: 0 !important;
+	opacity: 0.8;
+
+}
+
+.landingText h3
+{
+	margin: 6px  !important;
+	font-size: 20px;
+	opacity: 0.3;
+	line-height: 30px;
+}
+
+.landingText .btn
+{
+	width: 120px;
+	margin-top: 30px;
+	padding:14px 20px 14px 20px;
+	background-color: rgba(162, 155, 254,0.8);
+	transform: translateY(15px);
+	transition: 0.8s;
+}
+
+.landingText .btn a
+{
+	font-size: 1.3vw;
+	color: white;
+}
+
+.landingText .btn:hover
+{
+	border-radius: 50px;
+	transition: 0.8s;
+	background-color: rgba(85, 239, 196,0.8);
+}
+
+
+
+ul{
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	transform: translate(-200px,40px);
+	position: relative;
+	display: flex;
+	
+}
+
+ul li {
+	position: relative;
+	list-style: none;
+	color: white;
+}
+
+ul li a
+{
+	display: block;
+	width: 40px;
+	height: 40px;
+	line-height: 60px;
+	text-align: center;
+	margin: 0 30px;
+	border-radius: 15px;
+}
+
+ul li a .fa
+{
+	font-size: 25px;
+	color: #fff;
+	 text-shadow: 0px 0px 8px #a29bfe, 0px 0px 42px #a29bfe, 0px 0px 72px #a29bfe;
+	 transform: translateY(5px);
+	transition: 0.5s;
+}
+
+
+ul li .a1:hover .fa
+{
+	transform: translateY(-5px);
+	transition: 0.5s;
+	text-shadow: 0px 0px 8px rgba(85, 239, 196,1.0), 0px 0px 42px rgba(85, 239, 196,1.0), 0px 0px 72px rgba(85, 239, 196,1.0);
+
+}
+
+ul li .a2:hover .fa
+{
+	transform: translateY(-5px);
+	transition: 0.5s;
+	text-shadow: 0px 0px 8px rgba(85, 239, 196,1.0), 0px 0px 42px rgba(85, 239, 196,1.0), 0px 0px 72px rgba(85, 239, 196,1.0);
+}
+
+ul li .a3:hover .fa
+{
+	transform: translateY(-5px);
+	transition: 0.5s;
+	text-shadow: 0px 0px 8px rgba(85, 239, 196,1.0), 0px 0px 42px rgba(85, 239, 196,1.0), 0px 0px 72px rgba(85, 239, 196,1.0);
+}
+
+/*--------about css----------
+*/
+
+.about
+{
+	height: 600px;
+	padding: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.aboutText {
+	position: relative;
+	padding: 0 50px;
+	height: inherit;
+}
+
+.aboutText  h1
+{
+ letter-spacing: 4px;
+ text-align: center;
+ transform: translate(400px,-50px);
+}
+
+
+.aboutList
+{
+	width: 50%；
+}
+
+ol
+{
+	list-style: none;
+	color: #a29bfe;
+}
+
+ol l{
+	font-size: 34px;
+	position: relative;
+	margin-bottom: 20px;
+	border-bottom: 1px solid;
+}
+
+li p
+{
+	font-size: 16px;
+	color: black;
+	padding-left: 60px;
+	line-height: 30px;
+	opacity: 0.6;
+}
+
+li span {
+	position: absolute;
+	line-height: 25px;
+	font-weight: 600;
+}
+
+/*card css--------------*/
+
+
+.card1 {
+    width:300px;
+
+    margin:50px auto;
+    background-color:white;
+    
+    transform: translate(-400px,0px);
+  
+    margin-right:20px;
+    margin-left: 200px;
+    margin-bottom: 200px;
+    transition: 0.5s;
+
+}
+.card1 a {
+    color:#333;
+    text-decoration:none;
+}
+
+
+
+.card-image {
+    height:250px;
+    position:relative;
+    
+}
+
+.card1:hover
+{
+	transition: 0.5s;
+	box-shadow:0px 5px 40px #999;
+	border-radius: 40px;
+	background-color: #fff;
+}
+
+.card2 {
+    width:300px;
+
+    margin:50px auto;
+    background-color:white;
+   
+    transform: translate(-400px,0px);
+  
+    margin-right:20px;
+    margin-left: 20px;
+    margin-bottom: 200px;
+    transition: 0.5s;
+
+}
+.card2 a {
+    color:#333;
+    text-decoration:none;
+}
+
+.card-image {
+    height:250px;
+    position:relative;
+    
+}
+
+.card2:hover
+{
+	transition: 0.5s;
+	box-shadow:0px 5px 40px #999;
+	border-radius: 40px;
+	background-color: #fff;
+}
+
+.card3 {
+    width:300px;
+
+    margin:50px auto;
+    background-color:white;
+    transform: translate(-400px,0px);
+  
+    margin-right:200px;
+    margin-left: 20px;
+    margin-bottom: 200px;
+    transition: 0.5s;
+}
+.card3 a {
+    color:#333;
+    text-decoration:none;
+}
+
+.card-image {
+    height:250px;
+    position:relative;
+    
+}
+
+.card3:hover
+{
+	transition: 0.5s;
+	box-shadow:0px 5px 40px #999;
+	border-radius: 40px;
+	background-color: #fff;
+}
+
+
+.row
+{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	transform: translate(400px,200px);
+	flex-basis: 18%;
+
+	
+}
+
+.banner
+{
+	height: 400px;
+	
+	display: flex;
+	flex-direction: row;
+	padding: 50px;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.bannerText h1
+{
+	font-size: 3vw;
+	color: #000;
+	font-weight: 600;
+}
+
+.bannerText img
+{
+	width: 10vw;
+	margin-right: 
+}
+
+.bannerImg img{
+	width: 20vw;
+}
+
+/*footer css--------*/
+
+.footer
+{
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 20px;
+}
+
+.footerlinks a
+{
+	margin: 20px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #000;
+}
+
